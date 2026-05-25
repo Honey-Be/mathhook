@@ -17,4 +17,4 @@ matplotlib>=3.7.0  # For plotting (if needed)
 
 # Optional: For Jupyter notebook examples (future)
 jupyter>=1.0.0
-ipykernel>=6.0.0
+ipykernel>=6.31.0
