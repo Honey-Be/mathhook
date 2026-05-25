@@ -253,15 +253,6 @@ checksum = "b05b61dc5112cbb17e4b6cd61790d9845d13888356391624cbe7e41efeac1e75"
 
 [[package]]
 name = "convert_case"
-version = "0.10.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "633458d4ef8c78b72454de2d54fd6ab2e60f9e02be22f3c6104cdc8a4e0fceb9"
-dependencies = [
- "unicode-segmentation",
-]
-
-[[package]]
-name = "convert_case"
 version = "0.11.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "affbf0190ed2caf063e3def54ff444b449371d55c58e513a95ab98eca50adb49"
@@ -877,7 +868,7 @@ dependencies = [
 name = "mathhook-macros"
 version = "0.2.0"
 dependencies = [
- "convert_case 0.10.0",
+ "convert_case",
  "mathhook-core",
  "proc-macro2",
  "quote",
@@ -962,7 +953,7 @@ version = "3.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2c914b5e420182bfb73504e0607592cdb8e2e21437d450883077669fb72a114d"
 dependencies = [
- "convert_case 0.11.0",
+ "convert_case",
  "ctor",
  "napi-derive-backend",
  "proc-macro2",
@@ -976,7 +967,7 @@ version = "5.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f0864cf6a82e2cfb69067374b64c9253d7e910e5b34db833ed7495dda56ccb18"
 dependencies = [
- "convert_case 0.11.0",
+ "convert_case",
  "proc-macro2",
  "quote",
  "semver",
